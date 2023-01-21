@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet"> -->
+    <script src="https://kit.fontawesome.com/08a2eb038c.js" crossorigin="anonymous"></script>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class=" fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class=" fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+
+<!-- blog page content -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Our Certificate & Online Programs for 2023</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consequuntur ut incidunt, sint tenetur, ea similique facilis exercitationem inventore delectus doloribus esse eum quam commodi non minima veniam optio amet! Dicta tempore molestias facere.</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem facilis magnam corporis totam a quidem nesciunt commodi veritatis possimus incidunt!</p>
+            <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis architecto tempore pariatur deserunt cupiditate? Eum minima accusantium, dolores laudantium voluptatum at delectus maiores pariatur sequi magnam, quae nam aut suscipit iusto, impedit sapiente! Consectetur cupiditate tempora error animi, eveniet doloremque quod nemo dolor omnis. Dolorum, unde commodi accusantium dolore, illo corrupti beatae expedita distinctio in, deserunt voluptas eius quia reprehenderit?</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, a aspernatur voluptas provident facilis eligendi veritatis quidem hic eum fugit iusto praesentium ipsa rerum porro voluptatem? Sunt, veniam, doloribus, in non maiores dignissimos quam fugit debitis illum delectus ipsam nostrum consequatur veritatis quo aliquam distinctio repellendus tenetur numquam! Repellat laborum earum aut soluta recusandae velit doloremque eaque quod vel, quas voluptatibus pariatur illum maxime aliquam impedit sunt sequi dolore blanditiis voluptas tenetur quaerat vero magnam dolorem iusto! Eaque est soluta iste assumenda magnam esse similique totam asperiores dolor fugit? Nulla consequuntur doloremque in. Omnis animi eaque fuga, sint adipisci nobis?</p>
+
+
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea name="" id="" rows="5" placeholder="New Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Analytics</span>
+                <span>71</span>
+            </div>
+            <div>
+                <span>Law</span>
+                <span>2</span>
+            </div>
+            <div>
+                <span>Company</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Autocad</span>
+                <span>91</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<sectio class="footer">
+     <h4>About Us</h4>
+     <p>Personalizing the testimonial makes it easier for readers to be empathetic. Adding before and after images,<br> a company logo, or other imagery that demonstrates the value of the service or product is another way to personalize the testimonial.</p>
+     <div class="icons">
+        <i class="fa fa-brands fa-facebook"></i>
+        <i class="fa fa-brands fa-twitter"></i>
+        <i class="fa fa-brands fa-instagram"></i>
+        <i class="fa fa-brands fa-linkedin"></i>
+     </div>
+     <p>Made first responsive site with <i class="fa-solid fa-heart"></i></p>
+</sectio>
+
+
+<!-- JAVASCRIPT -->
+    <script>
+        var navLinks = document.getElementById("nav-links");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
